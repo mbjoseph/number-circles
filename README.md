@@ -1,6 +1,7 @@
 # Visualizing factors with circles
 
 Natural numbers are cool, and so are their factors. 
+This repo generates some plots to support our local math circle. 
 
 ## Installation
 
@@ -24,7 +25,10 @@ pixi run python number_circles/number_circles.py --max_n 10 --outfile example_pl
 
 ## Example Output
 
-Below is an example of the kind of visualization you can generate:
+Below is an example of the kind of visualization you can generate. 
+
+If a number $m$ is divisible by $n$, then a regular n-gon is formed by line segments traversing $m$ dots arranged in a circle with step size $n$.
+For example, if a number is divisible by 4, we see a square. 
 
 ![Example number circles plot](figs/example.png)
 
